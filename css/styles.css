@@ -653,9 +653,39 @@ blockquote::before {
   }
 
   .features-grid {
+    display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 24px;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
   }
+  .features-grid::before {
+    content: none;
+  }
+
+  .feature-card {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    padding: 12px 8px;
+    gap: 50px;
+  }
+
+  .feature-icon {
+    width: 56px;
+    height: 56px;
+    margin: 0;
+  }
+
+  .feature-card h3 {
+    margin: 10px;
+    font-size: 18px;
+  }
+  .feature-card p {
+    margin-top: 4px;
+  }
+}
+
 
   .logo-scattered {
     width: 350px;
