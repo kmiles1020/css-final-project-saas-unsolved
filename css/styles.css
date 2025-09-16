@@ -660,7 +660,7 @@ blockquote::before {
   .logo-scattered {
     width: 350px;
     height: 300px;
-    margin: 0 auto;
+    margin: 0;
   }
 
   .logo-1 { top: 20px; right: 80px; }
