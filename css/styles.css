@@ -334,6 +334,7 @@ body {
 .pricing-features {
   display: grid;
   gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .pricing-feature {
@@ -684,6 +685,23 @@ blockquote::before {
   .feature-card p {
     margin-top: 4px;
   }
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.footer-grid {
+  grid-template-columns: 1fr;
+  gap: 24px;
+  justify-content: center;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  justify-content: center;
 }
 
 
