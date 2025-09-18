@@ -80,7 +80,6 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;
-  display: flex;
   align-items: center;
   gap: 8px;
   font-size: 16px;
@@ -693,10 +692,10 @@ blockquote::before {
 }
 
 .footer-grid {
-  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   gap: 24px;
   justify-content: center;
-  max-width: 420px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
