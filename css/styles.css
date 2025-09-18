@@ -652,25 +652,24 @@ blockquote::before {
   }
 
   .logo-scattered {
-    width: 320px;   /* smaller container */
+    width: 100%;   /* smaller container */
     height: 280px;
-    margin: 0 auto; /* centers the whole block */
-    position: relative;
+    margin: 50px auto; /* centers the whole block */
   }
 
-  /* adjust positions so they scatter around center */
-  .logo-1 { top: 10px; left: 120px; }
-  .logo-2 { top: 40px; left: 40px; }
-  .logo-3 { top: 40px; left: 200px; }
-  .logo-4 { top: 120px; left: 80px; }
-  .logo-5 { top: 120px; left: 180px; }
-  .logo-6 { top: 200px; left: 60px; }
-  .logo-7 { top: 200px; left: 180px; }
+  .logo-1 { top: 10px; left: 50px; }
+  .logo-2 { top: 40px; left: 150px; }
+  .logo-3 { top: 40px; left: 250px; }
+  .logo-4 { top: 120px; left: 100px; }
+  .logo-5 { top: 120px; left: 200px; }
+  .logo-6 { top: 200px; left: 70px; }
+  .logo-7 { top: 200px; left: 170px; }
 
   .logo-item {
     width: 60px;
     height: 60px;
     padding: 12px;
+    position: absolute;
   }
 }
 
@@ -734,9 +733,6 @@ blockquote::before {
     align-items: center;
     gap: 16px;
   }
-}
-
-}
 
 .footer {
   text-align: center;
